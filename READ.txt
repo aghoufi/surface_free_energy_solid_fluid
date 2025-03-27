@@ -1,0 +1,9 @@
+This directory contains Fortran and Python codes for calculating surface free energy u
+sing different methods, as well as test simulations to evaluate various approaches. 
+All input files are compatible with the DL_POLY software.
+
+i) Thermal integration: Workflow - (Workflow-gF\_from\_gU) + data for example (Water-Al-input-files); 
+ii) Gibbs-Cahn Integration: Similar to the workflow presented for internal energy in case of the  thermal integration; 
+iii) Fluctuation capillary-waves: Code in fortran (Capillary-wave.f);  
+iv) Interfacial excess stress - based on the Irving Kirkwood constraint calculation (Irving-Kirwood-pressure.f); 
+v) Free energy difference for work of adhesion calculation - Code in Fortran (FEP.) and input files (FEP-GRAPHENE-WATER). 
